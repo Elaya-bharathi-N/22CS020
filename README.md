@@ -1,12 +1,43 @@
-# React + Vite
+# URL Shortener
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application built with Vite, providing a minimal setup to get React working with Hot Module Replacement (HMR) and some ESLint rules.
 
-Currently, two official plugins are available:
+## Features
+- URL shortening functionality
+- Analytics and statistics tracking
+- Clean, modern UI
+- Built with React and Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+
+## Technologies Used
+- React
+- Vite
+- JavaScript/JSX
+- CSS
+
+## Project Structure
+```
+URL-Shortener/
+├── src/
+│   ├── components/     # Reusable components
+│   ├── Pages/         # Page components
+│   ├── App.jsx        # Main app component
+│   └── main.jsx       # Entry point
+├── package.json
+└── README.md
+```
+
+## Available Scripts
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
